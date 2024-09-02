@@ -1,1 +1,66 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+}
+
+.cabecalho {
+    background-color: #2E7D32;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cabecalho-logo {
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+.cabecalho-titulo {
+    margin: 0;
+    font-size: 32px;
+}
+
+.agricultura, .importancia {
+    padding: 20px;
+    text-align: center;
+}
+
+.agricultura h2, .importancia h2 {
+    color: #2E7D32;
+    font-size: 28px;
+}
+
+.agricultura p {
+    text-align: justify;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.imagem-agricultura {
+    width: 200px;
+    margin-top: 10px;
+}
+
+.importancia ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.importancia li {
+    background-color: #A5D6A7;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.rodape {
+    background-color: #2E7D32;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
 
